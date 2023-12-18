@@ -8,6 +8,8 @@ import TesteHook3 from './components/Hooks/TesteHook3';
 import TesteHook4 from './components/Hooks/testeHook4';
 import Lista1 from './components/Listas/Lista1';
 import Lista3 from './components/Listas/Lista3';
+import Lista4comKey from './components/Listas/Lista4comKey';
+import Lista5 from './components/Listas/Lista5';
 
 
 function App() {
@@ -32,6 +34,8 @@ function App() {
    <ListRender/>
    <Lista1 />
    <Lista3 />
+   <Lista4comKey />
+   <Lista5 />
     </div>
   );
 }
