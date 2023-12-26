@@ -10,6 +10,8 @@ import Lista1 from './components/Listas/Lista1';
 import Lista3 from './components/Listas/Lista3';
 import Lista4comKey from './components/Listas/Lista4comKey';
 import Lista5 from './components/Listas/Lista5';
+import ConditionalRender from './components/ConditionalRender';
+import ConditionalRender2 from './components/ConditionalRender2';
 
 
 function App() {
@@ -36,7 +38,9 @@ function App() {
    <Lista3 />
    <Lista4comKey />
    <Lista5 />
-    </div>
+   <ConditionalRender />
+   <ConditionalRender2 />
+  </div>
   );
 }
 
