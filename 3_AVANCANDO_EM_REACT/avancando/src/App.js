@@ -12,9 +12,17 @@ import Lista4comKey from './components/Listas/Lista4comKey';
 import Lista5 from './components/Listas/Lista5';
 import ConditionalRender from './components/ConditionalRender';
 import ConditionalRender2 from './components/ConditionalRender2';
+import ConditionalRender3 from './components/ConditionalRender3';
+import ConditionalRender4 from './components/ConditionalRender4';
+import ShowUserName from './components/Props/ShowUserName';
+import { useState } from 'react';
 
 
 function App() {
+
+const name = "jaqueline"
+const [userName] = useState("Maria")
+
   return (
     <div className="App">
       <h1>Avançando em React</h1>
@@ -40,6 +48,9 @@ function App() {
    <Lista5 />
    <ConditionalRender />
    <ConditionalRender2 />
+   <ConditionalRender3 />
+   <ConditionalRender4 />
+   <ShowUserName name={userName}/>
   </div>
   );
 }
