@@ -1,6 +1,9 @@
 
 import './App.css';
+// import Mapas from './components/Mapas';
+//import Empresas from './components/Empresas';
 import Myform from './components/Myform';
+// import Translate from './components/Translate';
 // import Alunos from './components/Alunos';
 // import Carros from './components/Carros';
 // import Nomes from './components/Nomes';
@@ -13,7 +16,7 @@ function App() {
   return (
     <div className="App">
      <h2>Forms</h2>
-     <Myform />
+     <Myform user={{ name:'felipe', email:'felipesimao@gmail.com', bio: "Sou estudante", role:"admin"}} />
      {/* <Alunos /> */}
      {/* <Professores />
      <Professores2 /> */}
@@ -21,6 +24,9 @@ function App() {
      <Nomes />
      < Cores />
      <Livros /> */}
+     {/* <Empresas /> */}
+     {/* <Mapas />
+     <Translate /> */}
     </div>
   );
 }
